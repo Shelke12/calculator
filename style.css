@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #3B4664;
+}
+
+.calculator {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0rem 0rem 33rem;
+    flex-wrap: wrap;
+}
+
+.calc {
+    margin: 2rem;
+}
+
+.heading {
+    font-size: 2rem;
+    color: rgb(247, 243, 251);
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+input {
+    border: none;
+    background-color: rgba(24, 31, 50, 1);
+    padding: 1.3rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    color: rgb(251, 253, 255);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.btn {
+    display: flex;
+    gap: 1.1rem;
+    padding: 2.5rem 2rem;
+    border-radius: 0.6rem;
+    flex-wrap: wrap;
+    background-color: rgba(37, 45, 68, 1);
+}
+
+.btn_class {
+    height: auto;
+    width: 5.1rem;
+    border-radius: 0.5rem;
+}
+
+button {
+    border: none;
+    background-color: aliceblue;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: rgb(189, 194, 199);
+}
+
+.btn_class1 {
+    width: 11.12rem;
+    border-radius: 0.5rem;
+}
+
+#btn17,
+#btn4 {
+    color: rgb(249, 249, 249);
+    background-color: #575d70;
+}
+
+#btn18 {
+    background-color: red;
+    color: white;
+}
+
+#btn18:hover {
+    background-color: rgb(252, 34, 34);
+}
+
+#btn17:hover,
+#btn4:hover {
+    background-color: rgb(189, 194, 199);
+    color: #3B4664;
+}
