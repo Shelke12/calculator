@@ -10,7 +10,7 @@
     width: 28rem;
     display: flex;
     flex-direction: column;
-    margin: 5rem 0rem 0rem 33rem;
+    margin: 2rem 0rem 0rem 33rem;
     flex-wrap: wrap;
 }
 
@@ -23,7 +23,15 @@
     color: rgb(247, 243, 251);
     font-weight: 900;
     margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2rem;
     text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input {
@@ -84,11 +92,29 @@ button:hover {
 }
 
 #btn18:hover {
-    background-color: rgb(252, 34, 34);
+    background-color: rgb(177, 0, 12);
 }
 
 #btn17:hover,
 #btn4:hover {
     background-color: rgb(189, 194, 199);
     color: #3B4664;
+}
+
+@media screen and (max-width: 500px) {
+    .calculator {
+        margin: 0rem;
+    }
+    .calc {
+        margin: 4rem 0rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .calculator {
+        margin: 2rem 9.5rem 2rem 9.5rem;
+    }
+    .calc {
+        margin: 0rem 0rem;
+    }
 }
