@@ -6,7 +6,7 @@
     background-color: #3B4664;
 }
 
-.calculator {
+.calculator_container {
     width: 28rem;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ input {
     text-align: right;
 }
 
-.btn {
+#btn {
     display: flex;
     gap: 1.1rem;
     padding: 2.5rem 2rem;
@@ -87,12 +87,12 @@ button:hover {
 }
 
 #btn18 {
-    background-color: red;
+    background-color: rgb(255, 29, 47);
     color: white;
 }
 
 #btn18:hover {
-    background-color: rgb(177, 0, 12);
+    background-color: rgb(255, 4, 4);
 }
 
 #btn17:hover,
