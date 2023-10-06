@@ -56,13 +56,16 @@ input {
     background-color: rgba(37, 45, 68, 1);
 }
 
-.btn_class {
+.symbols {
     height: auto;
     width: 5.1rem;
     border-radius: 0.5rem;
 }
 
 button {
+    height: auto;
+    width: 5.1rem;
+    border-radius: 0.5rem;
     border: none;
     background-color: aliceblue;
     padding: 0.7rem;
@@ -75,8 +78,9 @@ button:hover {
     background-color: rgb(189, 194, 199);
 }
 
-.btn_class1 {
-    width: 11.12rem;
+#btn17,
+#btn18 {
+    width: 11.3rem;
     border-radius: 0.5rem;
 }
 
@@ -99,22 +103,4 @@ button:hover {
 #btn4:hover {
     background-color: rgb(189, 194, 199);
     color: #3B4664;
-}
-
-@media screen and (max-width: 500px) {
-    .calculator {
-        margin: 0rem;
-    }
-    .calc {
-        margin: 4rem 0rem;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .calculator {
-        margin: 2rem 9.5rem 2rem 9.5rem;
-    }
-    .calc {
-        margin: 0rem 0rem;
-    }
 }

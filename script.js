@@ -1,16 +1,13 @@
-function getInput() {
-    const el1 = document.getElementById(btn);
-    const firstInput = el1 && el1.value;
-}
+let number = "";
+let input = document.querySelectorAll('button')
+let ans = 0;
+input.forEach((item) => {
+    item.addEventListener('click', (e) => {
 
-function showInput() {
-    const value1 = getInput();
-    if (value1) {
-        const input1 = document.getElementById(btn);
-        input1.innerText = value1;
-    }
-}
-
-function showData() {
-
-}
+        let inputNumbers = document.getElementById('input_feild').value += e.target.innerHTML;
+        if (input.value == '=') {
+            ans = eval(inputNumbers)
+            console.log(ans)
+        }
+    })
+})
